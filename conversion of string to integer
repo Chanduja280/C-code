@@ -1,0 +1,19 @@
+// C program to demonstrate the functioning of the
+// atoi() function
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char* str1 = "141";
+    char* str2 = "3.14";
+  
+      // Using atoi to convert str1 and str2 to integer values
+    int num1 = atoi(str1);
+    int num2 = atoi(str2);
+  
+      // Performing arithmetic operation
+      int sum = num1 + num2;
+    printf("The sum of %d and %d is: %d", num1, num2, sum);
+
+    return 0;
+}
